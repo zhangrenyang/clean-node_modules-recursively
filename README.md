@@ -9,5 +9,5 @@ npm install clean-node_modules-recursively -g
 
 ## Usage
 ```js
-remove-node_modules
+clean_node_modules
 ```
