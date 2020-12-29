@@ -1,15 +1,18 @@
 {
-  "name": "remove-node_modules",
-  "version": "1.0.0",
+  "name": "clean-node_modules-recursively",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "remove-node_modules":"./index.js"
+  "bin": {
+    "clean_node_modules": "./index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "io-spin": "^0.4.1"
+  }
 }

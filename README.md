@@ -1,13 +1,13 @@
 ## Description
-- remove all node_modules directories of current working directory
-- only support linux mac and git bash, doesn't work on cmd
+- Delete all node_modules in the current directory and subdirectories
+- Only Linux and MAC are supported. Git bash can be used under windows
 
 ## Installation
 ```js
-npm install remove-node_modules -g
+npm install clean-node_modules-recursively -g
 ```
 
 ## Usage
 ```js
-remove-node_modules .
+remove-node_modules
 ```
